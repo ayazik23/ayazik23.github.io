@@ -79,6 +79,9 @@
     background-color: pink;
   }
 }
+    button {
+    background-color: #666; 
+    }
     </style>
 </head>
 <body>
@@ -98,7 +101,10 @@
         
     <main>
         <section>
-            <img src="image/cat.jpg" alt="Cat" style="width:200px">
+        <img id="myPhoto" src="image/cat.jpg" alt="MyPhoto" style="width:200px">
+        <button id="changePhotoButton" class="btn btn-primary">Change My Photo</button>
+        <button id="prevPhotoButton" class="btn btn-secondary">Previous Photo</button>
+        <button id="nextPhotoButton" class="btn btn-firstly">Next Photo</button>
             <h2>About me</h2>
             <p dir="ltr"> My name is Miras and I am a student of Information and Communication Technolohies. </p>            
         </section>
@@ -213,5 +219,7 @@
             <p>© 2023 Miras Kamatay</p>
         </footer>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
